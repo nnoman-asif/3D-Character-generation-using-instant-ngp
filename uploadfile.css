@@ -1,0 +1,136 @@
+.bg {
+    /* The image used */
+    background-image: url("uploadfile.jpg");
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.fade-in-sticky-background{
+    animation:fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+.drag-area-setting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #fff;
+    
+}
+
+.drag-area {
+    border: 2px dashed #000;
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drag-area.active{
+    border: 2px solid;
+}
+.details{
+    text-align:inherit;
+}
+.drag-area .icon{
+    font-size:100px;
+    color:dodgerblue;
+}
+
+.drag-area header{
+    font-size:25px; 
+}
+
+.drag-area span{
+    font-size:20px;
+    margin: 10px 0 15px 0;
+}
+
+.drag-area button{
+    padding: 10px 25px;
+    font-size: 15px;
+    background:slategray;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sticky-bg-centered-text {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 5s;
+}
+.sticky-bg-centered-text2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 5s;
+}
+.sticky-bg-centered-text3 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 20s;
+}
+.options{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: slategray;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.option-li-navigation-logo{
+    float: left;
+}
+
+.option-li {
+    float: right;
+}
+
+.option--navigation-logo a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.option-li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.option-li a:hover {
+    background-color: #111;
+}
+
+.option-active {
+    background-color: steelblue;
+}

@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Characterizer Web portal</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="icon" href="logo.png" />
+</head>
+<body>
+
+    <div class="bg">
+        <br>
+        <h1>3D Characterizer</h1>
+
+        <p1 class="ex1" id="a">
+            3C is a web-based application that is designed for creating a 3d model of humans.User can upload 360 video that has his/her desired character.<br /> The user can wait till the 3d model is processed. The system will give model file. The model can be imported in Blender or MeshLab then to<br /> Unreal Engine.
+        </p1><br />
+
+        <p2 id="b">With a busy lifecycle nowadays, it’s hard to design a character in such a short time. It takes hours or even days to design a character. To save time, this project will be very helpful for game designers and graphic design who spend days to just make a single character for game.</p2><br />
+        <div1>
+            <form action="uploadfile.html">
+                <label for="fname">FIRST NAME:</label>
+                <input type="text" name="fname" placeholder="Enter Firstname" style="width:200px" required><br>
+
+                <label for="lname">LAST NAME:</label>
+                <input type="text" name="lname" placeholder="Enter Lastname" style="width:200px" required><br>
+
+                <label for="Uname">EMAIL:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="mail" placeholder="Enter Email" style="width:200px" required><br>
+
+                <label for="Uname">USERNAME:</label>
+                <input type="text" name="Uname" placeholder="Enter Username" style="width:200px" required><br>
+
+                <label for="Pass">PASSWORD:</label>
+                <input type="text" name="psw" placeholder="Enter Password" minlength="8" maxlength="16" style="width:200px" required><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p3>Already have an account? <button onclick="document.getElementById('id01').style.display='block'">Login</button></p3> <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="Submit" style="width:200px">
+
+
+            </form>
+        </div1>
+
+    </div>
+    <div3 id="id01" class="modal" align="center">
+        <span onclick="document.getElementById('id01').style.display='none'"
+              class="close" title="Close Modal">&times;</span>
+
+        <!-- Modal Content -->
+        <form class="modal-content animate" action="uploadfile.html">
+            
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" style="width:200px" required><br />
+
+                <label for="psw"><b>Password</b></label>
+                <input type="text" placeholder="Enter Password" name="psw" style="width:200px" required><br />
+
+                <button type="submit">Login</button><br />
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label><br />
+            </div>
+
+            <div class="container" style="background-color: #DFC87A">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div3><br />
+
+</body>
+</html>
