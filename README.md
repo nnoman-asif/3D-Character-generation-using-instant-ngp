@@ -16,7 +16,7 @@
 ## Demo
 
 <p align="center">
-  https://github.com/user-attachments/assets/7eb7fb19-000d-4aef-8606-145598f4f10a
+   <img src="FYP_web/src/assets/displayingmodel.gif" width="600" alt="3C Demo">
 </p>
 
 ## Overview
