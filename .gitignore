@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js (FYP_web)
+FYP_web/node_modules/
+FYP_web/build/
+FYP_web/.env.local
+FYP_web/.env.development.local
+FYP_web/.env.test.local
+FYP_web/.env.production.local
+npm-debug.log*
+
+# PyTorch / TensorFlow (general)
+*.h5
+*.pb
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

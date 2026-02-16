@@ -1,0 +1,25 @@
+# GUI
+PyQt5
+
+# Deep Learning - IS-Net (background segmentation)
+torch
+torchvision
+
+# Deep Learning - Cartoonizer (uses TF1 compat API)
+tensorflow>=2.10,<2.18
+tf-slim
+
+# Image Processing
+opencv-python
+numpy
+Pillow
+scikit-image
+rembg
+
+# 3D Mesh & Visualization
+open3d
+pymeshlab
+
+
+# Utilities
+tqdm
