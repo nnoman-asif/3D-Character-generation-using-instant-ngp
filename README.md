@@ -2,7 +2,11 @@
   <img src="FYP_web/src/assets/logo.png" width="200" alt="3C Logo">
 </p>
 
-<h1 align="center">3D Character Generation using Instant-NGP</h1>
+<h1 align="center">
+
+
+
+3D Character Generation using Instant-NGP</h1>
 
 <p align="center">
   A desktop application that generates textured 3D character models from a single video using Neural Radiance Fields (NeRF).<br>
@@ -12,7 +16,7 @@
 ## Demo
 
 <p align="center">
-  <video src="FYP_web/src/assets/displayingmodel.mp4" autoplay loop muted width="600"></video>
+  https://github.com/user-attachments/assets/7eb7fb19-000d-4aef-8606-145598f4f10a
 </p>
 
 ## Overview
